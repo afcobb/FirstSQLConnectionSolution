@@ -1,0 +1,5 @@
+c:\users\max-student\documents\visual studio 2017\Projects\FirstSQLConnectionSolution\PrsLibrary\bin\Debug\PrsLibrary.dll
+c:\users\max-student\documents\visual studio 2017\Projects\FirstSQLConnectionSolution\PrsLibrary\bin\Debug\PrsLibrary.pdb
+c:\users\max-student\documents\visual studio 2017\Projects\FirstSQLConnectionSolution\PrsLibrary\obj\Debug\PrsLibrary.csprojResolveAssemblyReference.cache
+c:\users\max-student\documents\visual studio 2017\Projects\FirstSQLConnectionSolution\PrsLibrary\obj\Debug\PrsLibrary.dll
+c:\users\max-student\documents\visual studio 2017\Projects\FirstSQLConnectionSolution\PrsLibrary\obj\Debug\PrsLibrary.pdb

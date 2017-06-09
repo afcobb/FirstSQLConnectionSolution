@@ -1,0 +1,8 @@
+c:\users\max-student\documents\visual studio 2017\Projects\FirstSQLConnectionSolution\FirstSQLConnectionProject\bin\Debug\FirstSQLConnectionProject.exe.config
+c:\users\max-student\documents\visual studio 2017\Projects\FirstSQLConnectionSolution\FirstSQLConnectionProject\bin\Debug\FirstSQLConnectionProject.exe
+c:\users\max-student\documents\visual studio 2017\Projects\FirstSQLConnectionSolution\FirstSQLConnectionProject\bin\Debug\FirstSQLConnectionProject.pdb
+c:\users\max-student\documents\visual studio 2017\Projects\FirstSQLConnectionSolution\FirstSQLConnectionProject\obj\Debug\FirstSQLConnectionProject.csprojResolveAssemblyReference.cache
+c:\users\max-student\documents\visual studio 2017\Projects\FirstSQLConnectionSolution\FirstSQLConnectionProject\obj\Debug\FirstSQLConnectionProject.exe
+c:\users\max-student\documents\visual studio 2017\Projects\FirstSQLConnectionSolution\FirstSQLConnectionProject\obj\Debug\FirstSQLConnectionProject.pdb
+c:\users\max-student\documents\visual studio 2017\Projects\FirstSQLConnectionSolution\FirstSQLConnectionProject\bin\Debug\PrsLibrary.dll
+c:\users\max-student\documents\visual studio 2017\Projects\FirstSQLConnectionSolution\FirstSQLConnectionProject\bin\Debug\PrsLibrary.pdb
