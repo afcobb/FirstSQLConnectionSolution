@@ -3,3 +3,8 @@ c:\users\max-student\documents\visual studio 2017\Projects\FirstSQLConnectionSol
 c:\users\max-student\documents\visual studio 2017\Projects\FirstSQLConnectionSolution\PrsLibrary\obj\Debug\PrsLibrary.csprojResolveAssemblyReference.cache
 c:\users\max-student\documents\visual studio 2017\Projects\FirstSQLConnectionSolution\PrsLibrary\obj\Debug\PrsLibrary.dll
 c:\users\max-student\documents\visual studio 2017\Projects\FirstSQLConnectionSolution\PrsLibrary\obj\Debug\PrsLibrary.pdb
+C:\repos\FirstSQLConnectionSolution\PrsLibrary\bin\Debug\PrsLibrary.dll
+C:\repos\FirstSQLConnectionSolution\PrsLibrary\bin\Debug\PrsLibrary.pdb
+C:\repos\FirstSQLConnectionSolution\PrsLibrary\obj\Debug\PrsLibrary.csprojResolveAssemblyReference.cache
+C:\repos\FirstSQLConnectionSolution\PrsLibrary\obj\Debug\PrsLibrary.dll
+C:\repos\FirstSQLConnectionSolution\PrsLibrary\obj\Debug\PrsLibrary.pdb

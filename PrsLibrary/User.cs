@@ -128,6 +128,12 @@ namespace PrsLibrary {
     }
 
         //Select
+        public static User Select(int Id) {
+            UserCollection users = User.Select($"Id = {Id}", "Id");
+            User user = (users.Count == 1) ? users[0] : null;
+            return user;
+        }
+
         public static UserCollection Select(string whereClause, string orderByClause) {
             string Sql = string.Format("SELECT * from [User] WHERE {0} ORDER BY {1}", whereClause, orderByClause);
             string ConnStr = @"Server=STUDENT05;Database=prs;Trusted_Connection=True;";
@@ -139,7 +145,7 @@ namespace PrsLibrary {
             SqlCommand Cmd = new SqlCommand(Sql, Conn);
             SqlDataReader Reader = Cmd.ExecuteReader();
             if (!Reader.HasRows) {
-                throw new ApplicationException("Result set has no rows!");
+               throw new ApplicationException("Result set has no rows!");
             }
             UserCollection users = new UserCollection();
             while (Reader.Read()) {

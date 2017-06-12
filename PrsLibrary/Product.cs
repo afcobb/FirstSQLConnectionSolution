@@ -37,6 +37,12 @@ namespace PrsLibrary {
             Cmd.Parameters.Add(new SqlParameter("@photopath", product.PhotoPath));
         }
         //Select
+        public static Product Select(int Id) {
+            ProductCollection products = Product.Select($"Id = {Id}", "Id");
+            Product product = (products.Count == 1) ? products[0] : null;
+            return product;
+        }
+
         public static ProductCollection Select(string WhereClause, string OrderByClause) {
             string Sql = string.Format("SELECT * from [Product] WHERE {0} ORDER BY {1}", WhereClause, OrderByClause);
             string ConnStr = @"Server=STUDENT05;Database=prs;Trusted_Connection=True;";

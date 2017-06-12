@@ -14,10 +14,10 @@ namespace FirstSQLConnectionProject {
 
             string ConnStr = @"Server=STUDENT05;Database=prs;Trusted_Connection=True;";
             SqlConnection Conn = new SqlConnection(ConnStr);
-                Conn.Open();
-                if (Conn.State != System.Data.ConnectionState.Open) {
-                    throw new ApplicationException("Connection didn't open");
-                }
+            Conn.Open();
+            if (Conn.State != System.Data.ConnectionState.Open) {
+                throw new ApplicationException("Connection didn't open");
+            }
 
 
             //            //insert
@@ -84,8 +84,24 @@ namespace FirstSQLConnectionProject {
             Unit = "Each",
             PhotoPath = null
         };
-
-
-
+        LineItemCollection lineitems = LineItem.Select("1 - 1", "Id");
+        LineItem lineitem = new LineItem {
+            PurchaseRequestID = 2,
+            ProductID = 1,
+            quantity = 1
+        };
     }
-}
+    //public bool DeleteLineItem(int LineItemId) {
+    //    LineItem lineitem = LineItem.Select(LineItemId) {
+    //        if (lineitem == null) {
+    //            throw new ApplicationException("Line item to delete not found");
+    //        }
+    //        decimal amount = lineitem.Product.Price * lineitem.quantity;
+    //        bool rc = LineItem.Delete(lineitem);
+    //        if (!rc) {
+    //            throw new ApplicationException("Line item delete failed");
+    //        }
+    //        this.Total -= amount;
+    //        rc = PurchaseRequest.Update(this);
+        //}
+    }
